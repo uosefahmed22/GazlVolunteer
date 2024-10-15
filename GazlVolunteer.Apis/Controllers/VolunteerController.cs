@@ -11,9 +11,7 @@ using System.Security.Claims;
 
 namespace GazlVolunteer.Apis.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class VolunteerController : ControllerBase
+    public class VolunteerController : BaseApiController
     {
         private readonly IVolunteerRepository _volunteerRepository;
         private readonly UserManager<AppUser> _userManager;

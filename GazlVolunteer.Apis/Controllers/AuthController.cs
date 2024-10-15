@@ -9,9 +9,7 @@ using System.Security.Claims;
 
 namespace GazlVolunteer.Apis.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class AuthController : ControllerBase
+    public class AuthController : BaseApiController
     {
 
         private readonly IAuthService _authService;

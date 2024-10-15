@@ -11,6 +11,7 @@ namespace GazlVolunteer.Apis.Helpers
             CreateMap<CivilAssociations,CivilAssociationsDto>().ReverseMap();
             CreateMap<complaintModel,complaintModelDto>().ReverseMap();
             CreateMap<VolunteerModel,VolunteerModelDto>().ReverseMap();
+            CreateMap<VolunteerOpportunityModel,VolunteerOpportunityModelDto>().ReverseMap();
         }
     }
 }

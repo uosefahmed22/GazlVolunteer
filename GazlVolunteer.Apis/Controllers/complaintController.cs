@@ -11,9 +11,7 @@ using System.Security.Claims;
 
 namespace GazlVolunteer.Apis.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class complaintController : ControllerBase
+    public class complaintController : BaseApiController
     {
         private readonly IcomplaintRepository _complaintRepository;
         private readonly UserManager<AppUser> _userManager;

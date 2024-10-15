@@ -7,9 +7,7 @@ using Swashbuckle.AspNetCore.Annotations;
 
 namespace GazlVolunteer.Apis.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class CivilAssociationController : ControllerBase
+    public class CivilAssociationController : BaseApiController
     {
         private readonly ICivilAssociationRepository _civilAssociationRepository;
 

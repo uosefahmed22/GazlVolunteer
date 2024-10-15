@@ -21,6 +21,3 @@ This platform isn’t just about filling time—it’s about filling hearts! Gaz
 - **Real-Time Notifications**: You won’t miss a beat—our **real-time notifications** system keeps you constantly updated, ready for action!
 - **Authentication**: With **bulletproof security** in the form of JWT token-based authentication, we keep your access secure, while refreshing tokens keep you locked in for longer sessions of impact! 🔒
 
-### 🌟 Join the Movement
-We’re on a **mission to change lives**—and we want YOU to be part of it! 🌟 GazlVolunteer is where **compassion meets action**, where dreams of a better tomorrow become reality today. Every step you take with us is another rocket blast toward a world filled with kindness and generosity! **Let’s make waves, break barriers, and leave no one behind**.
----

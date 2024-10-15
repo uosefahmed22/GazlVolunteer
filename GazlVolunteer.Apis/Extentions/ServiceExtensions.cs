@@ -119,6 +119,8 @@ namespace GazlVolunteer.Apis.Extentions
             services.AddScoped<IOtpService, OtpService>();
             services.AddScoped<IImageService, ImageService>();
             services.AddScoped<ICivilAssociationRepository, CivilAssociationRepository>();
+            services.AddScoped<IcomplaintRepository, complaintRepository>();
+            services.AddScoped<IVolunteerRepository, VolunteerRepository>();
 
             services.ConfigureCors();
 

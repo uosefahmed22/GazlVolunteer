@@ -9,6 +9,8 @@ namespace GazlVolunteer.Apis.Helpers
         public MappingProfile()
         {
             CreateMap<CivilAssociations,CivilAssociationsDto>().ReverseMap();
+            CreateMap<complaintModel,complaintModelDto>().ReverseMap();
+            CreateMap<VolunteerModel,VolunteerModelDto>().ReverseMap();
         }
     }
 }

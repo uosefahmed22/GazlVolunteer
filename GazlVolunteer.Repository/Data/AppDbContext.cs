@@ -27,6 +27,7 @@ namespace GazlVolunteer.Repository.Data
         public DbSet<complaintModel> complaints { get; set; }
         public DbSet<VolunteerModel> Volunteers { get; set; }
         public DbSet<VolunteerOpportunityModel> VolunteerOpportunities { get; set; }
+        public DbSet<Notifications> Notifications { get; set; }
 
     }
 }
